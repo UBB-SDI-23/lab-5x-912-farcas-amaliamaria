@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="a1:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -201,7 +206,7 @@
       <workItem from="1679901182600" duration="32000" />
       <workItem from="1679901254969" duration="88000" />
       <workItem from="1679901816005" duration="6363000" />
-      <workItem from="1679923488651" duration="4883000" />
+      <workItem from="1679923488651" duration="5199000" />
     </task>
     <servers />
   </component>
