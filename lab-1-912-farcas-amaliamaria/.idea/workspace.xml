@@ -119,9 +119,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "8a8bb7cd343aa2ad99b7d762030857a2",
     "vue.rearranger.settings.migration": "true"
@@ -201,7 +201,7 @@
       <workItem from="1679901182600" duration="32000" />
       <workItem from="1679901254969" duration="88000" />
       <workItem from="1679901816005" duration="6363000" />
-      <workItem from="1679923488651" duration="2291000" />
+      <workItem from="1679923488651" duration="4883000" />
     </task>
     <servers />
   </component>
