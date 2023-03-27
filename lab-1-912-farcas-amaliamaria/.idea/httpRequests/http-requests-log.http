@@ -1,0 +1,101 @@
+POST http://localhost:8080/api/animal
+Content-Type: application/json
+Content-Length: 139
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "microchipNumber": 2547,
+  "name": "Lollipop",
+  "dateOfBirth": "2011-10-08",
+  "weight": 6,
+  "vaccine": true,
+  "specialCare": true
+}
+
+<> 2023-03-17T101508.415.json
+
+###
+
+GET http://localhost:8080/api/shelter
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T221516.200.json
+
+###
+
+GET http://localhost:8080/api/animal
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T221501.200.json
+
+###
+
+GET http://localhost:8080/api/animal
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T221407.200.json
+
+###
+
+GET http://localhost:8080/api/animal
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T221353.200.json
+
+###
+
+GET http://localhost:8080/api/shelter
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T221339.200.json
+
+###
+
+GET http://localhost:8080/api/shelter
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T221015.200.json
+
+###
+
+GET http://localhost:8080/api/shelter
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T220910.200.json
+
+###
+
+GET http://localhost:8080/api/shelter
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T220802.200.json
+
+###
+
+GET http://localhost:8080/api/shelter
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-13T220616.200.json
+
+###
+

@@ -1,0 +1,10 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü·Òù8ÑûÜÔï0
+]	java:S125$"<This block of commented-out lines of code should be removed.(üéé„üÿÿÿÿ8ÖûÜÔï0
+f
+java:S1128	"DRemove this unused import 'net.sf.jasperreports.engine.JRException'.(¥Ã—ôûÿÿÿÿ8Æ İòï0
+a
+java:S1128
+"DRemove this unused import 'net.sf.jasperreports.engine.JasperPrint'.( åÏÀ8Æ İòï0
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Æ İòï0

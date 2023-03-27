@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "ClujAnimals",
+    "city": "Cluj",
+    "postalCode": 758964,
+    "phoneNumber": 40758968566,
+    "capacity": 450,
+    "animalInShelters": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "name": "OradeaAnimals",
+    "city": "Oradea",
+    "postalCode": 658458,
+    "phoneNumber": 40388968599,
+    "capacity": 300,
+    "animalInShelters": []
+  }
+]

@@ -1,0 +1,21 @@
+
+m
+java:S11922"PDefine a constant instead of duplicating this literal "shelter with id" 3 times.(î‘Øƒ8§¶Ìòï0
+
+java:S14884"bImmediately return this expression instead of assigning it to the temporary variable "shelterDTO".(ŞªĞ8©¶Ìòï0
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã²³©ÿÿÿÿÿ8«¶Ìòï0
+]	java:S125'"<This block of commented-out lines of code should be removed.(éˆÁ‹ûÿÿÿÿ8Ü¶Ìòï0
+]	java:S125|"<This block of commented-out lines of code should be removed.(ÜéäÙúÿÿÿÿ8ê¶Ìòï0
+Y	java:S125™"<This block of commented-out lines of code should be removed.(º¨ª8ê¶Ìòï0
+Y	java:S125¯"<This block of commented-out lines of code should be removed.(ñë«×8¾ßØòï0
+U
+java:S1128
+"8Remove this unused import 'net.sf.jasperreports.engine'.(úÍÒ8°…Úòï0
+z
+java:S1128"XRemove this unused import 'net.sf.jasperreports.engine.data.JRBeanCollectionDataSource'.(¦ŸŸ˜ıÿÿÿÿ8±…Úòï0
+e
+java:S1128"CRemove this unused import 'org.springframework.util.ResourceUtils'.(Š’Ğ¦úÿÿÿÿ8±…Úòï0
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8±…Úòï0
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8±…Úòï0

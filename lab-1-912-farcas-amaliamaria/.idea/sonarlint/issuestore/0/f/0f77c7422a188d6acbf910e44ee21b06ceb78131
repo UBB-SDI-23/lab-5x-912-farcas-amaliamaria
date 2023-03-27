@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã²³©ÿÿÿÿÿ
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(Û¬Ï²şÿÿÿÿ
+]
+java:S1126Z"BReplace this if-then-else statement by a single method invocation.(ùÒ¸¦úÿÿÿÿ
+M
+java:S1128"7Remove this unused import 'a1.DTO.getAll.ShelterIdDTO'.(Ï–¬Í
+I
+java:S1128".Remove this unused import 'a1.Domain.Shelter'.(ìè™ëüÿÿÿÿ
+`
+java:S1128">Remove this unused import 'jakarta.persistence.EntityManager'.(·ïŸéúÿÿÿÿ8Ñû‰ñï0
+e
+java:S1128"CRemove this unused import 'jakarta.persistence.PersistenceContext'.(ªê—·ûÿÿÿÿ8Ñû‰ñï0

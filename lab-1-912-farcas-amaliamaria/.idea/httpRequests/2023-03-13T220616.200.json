@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "ClujAnimals",
+    "city": "Cluj",
+    "postalCode": 758964,
+    "phoneNumber": 40758968566,
+    "capacity": 450,
+    "animalInShelters": [
+      {
+        "id": 1,
+        "microchipNumber": 5897,
+        "name": "Zeus",
+        "medicalRecordId": {
+          "id": 1,
+          "dateOfBirth": "2019-07-22",
+          "age": 3,
+          "weight": 15,
+          "vaccine": true,
+          "specialCare": false
+        },
+        "shelterId": 1,
+        "dayBroughtIn": "2020-07-22",
+        "dateAdopted": null
+      },
+      {
+        "id": 2,
+        "microchipNumber": 5687,
+        "name": "Hera",
+        "medicalRecordId": {
+          "id": 2,
+          "dateOfBirth": "2020-07-22",
+          "age": 2,
+          "weight": 8,
+          "vaccine": false,
+          "specialCare": false
+        },
+        "shelterId": 1,
+        "dayBroughtIn": "2020-07-22",
+        "dateAdopted": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "OradeaAnimals",
+    "city": "Oradea",
+    "postalCode": 658458,
+    "phoneNumber": 40388968599,
+    "capacity": 300,
+    "animalInShelters": []
+  }
+]
