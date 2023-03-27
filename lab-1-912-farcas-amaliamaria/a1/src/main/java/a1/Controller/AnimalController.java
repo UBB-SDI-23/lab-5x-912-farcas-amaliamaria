@@ -56,11 +56,13 @@ public class AnimalController {
     }
 
     @PostMapping
-    public ResponseEntity<String> addNewAnimal(@Valid @RequestBody AnimalForVolunteersDTO animal){
+    public ResponseEntity<AnimalForVolunteersDTO> addNewAnimal(@Valid @RequestBody AnimalForVolunteersDTO animal){
 
       /* AnimalForVolunteersDTO animalAdded = animalService.addNewAnimal(new Animal(animal.getMicrochipNumber(), animal.getName(), entityManager.find(MedicalRecord.class, animal.getMedicalRecord()), entityManager.find(Shelter.class, animal.getShelter()), animal.getDayBroughtIn(), animal.getDayBroughtIn()));*/
-        return new ResponseEntity<>(animalService.addNewAnimal(animal), HttpStatus.CREATED);
+        //return new ResponseEntity<>(animalService.addNewAnimal(animal), HttpStatus.CREATED);
 
+        AnimalForVolunteersDTO itemDtoResponse=animalService.addNewAnimal(animal);
+        return ResponseEntity.ok(itemDtoResponse);
         //return ResponseEntity.ok("User is valid");
     }
 

@@ -6,8 +6,6 @@ import a1.DTO.join.ShelterDTO;
 import a1.DTO.reports.AverageAgeVolunteersShelterDTO;
 import a1.DTO.reports.VaccinatedAnimalsRatioSheltersDTO;
 import a1.Service.ShelterService;
-import net.sf.jasperreports.engine.JRException;
-import net.sf.jasperreports.engine.JasperPrint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -10,7 +10,7 @@ import java.util.List;
 public interface IAnimalService {
     List<AnimalIdDTO> getAnimals();
     AnimalDTO getAnimalById(Long entityId);
-    String addNewAnimal(AnimalForVolunteersDTO entityDTO);
+    AnimalForVolunteersDTO addNewAnimal(AnimalForVolunteersDTO entityDTO);
     void deleteAnimal(Long entityId);
     void updateAnimal(AnimalForVolunteersDTO entityDTO);
 }

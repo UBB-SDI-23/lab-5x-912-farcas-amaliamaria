@@ -5,6 +5,8 @@ import com.fasterxml.jackson.annotation.JsonIdentityReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import jakarta.persistence.*;
+import org.hibernate.validator.internal.metadata.facets.Cascadable;
+import org.hibernate.validator.internal.metadata.facets.Validatable;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -27,11 +29,11 @@ public class Animal{
 
     @Column(unique=true)
     @NotNull(message = "Microchip number is required")
-    @Size(min = 4, max=4, message="Microchip number must have 4 characters")
+   // @Size(min = 4, max=4, message="Microchip number must have 4 characters")
     private Long microchipNumber;
 
     @NotNull(message = "Name is required")
-    @Size(min = 3, max=10, message="Name must be between 3 and 10 characters")
+    //@Size(min = 3, max=10, message="Name must be between 3 and 10 characters")
     private String name;
 
     @OneToOne
@@ -146,4 +148,5 @@ public class Animal{
                 ", dateAdopted=" + dateAdopted +
                 '}';
     }
+
 }

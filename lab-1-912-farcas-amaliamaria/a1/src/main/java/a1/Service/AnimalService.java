@@ -46,7 +46,7 @@ public class AnimalService implements IAnimalService{
         return new AnimalDTO(animal);
     }
 
-    public String addNewAnimal(@Valid AnimalForVolunteersDTO animalDTO) {
+    public AnimalForVolunteersDTO addNewAnimal(@Valid AnimalForVolunteersDTO animalDTO) {
 
         Shelter shelter = entityManager.find(Shelter.class, animalDTO.getShelter());
         if (shelter == null) {
@@ -62,8 +62,8 @@ public class AnimalService implements IAnimalService{
         if(animalOptional.isPresent()){
             throw  new IllegalStateException("Microchip number already taken");
         }
-
-        return new AnimalForVolunteersDTO(animalRepository.save(new Animal(animalDTO.getMicrochipNumber(), animalDTO.getName(), medicalRecord, shelter, animalDTO.getDayBroughtIn(), animalDTO.getDateAdopted()))).toString();
+        /*return AnimalForVolunteersDTO.from(animalRepository.save(Animal.from(animalDTO)));*/
+        return new AnimalForVolunteersDTO(animalRepository.save(new Animal(animalDTO.getMicrochipNumber(), animalDTO.getName(), medicalRecord, shelter, animalDTO.getDayBroughtIn(), animalDTO.getDateAdopted())));
 
         //return new AnimalForVolunteersDTO(animalRepository.save(animalDTO));
 

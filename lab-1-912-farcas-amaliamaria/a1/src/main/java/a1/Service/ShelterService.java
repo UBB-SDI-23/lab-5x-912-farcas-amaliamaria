@@ -7,8 +7,6 @@ import a1.DTO.reports.AverageAgeVolunteersShelterDTO;
 import a1.DTO.reports.VaccinatedAnimalsRatioSheltersDTO;
 import a1.Domain.Shelter;
 import a1.Repository.ShelterRepository;
-import net.sf.jasperreports.engine.*;
-import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
