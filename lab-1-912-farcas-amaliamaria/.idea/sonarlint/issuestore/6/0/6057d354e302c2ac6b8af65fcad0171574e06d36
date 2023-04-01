@@ -1,8 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ã²³©ÿÿÿÿÿ
-f
-java:S2259?"KA "NullPointerException" could be thrown; "medicalRecord" is nullable here.(„ôè…øÿÿÿÿ
-]
-java:S1126K"BReplace this if-then-else statement by a single method invocation.(º•ðÍüÿÿÿÿ
-]
-java:S1126T"BReplace this if-then-else statement by a single method invocation.(Óî«¢ýÿÿÿÿ

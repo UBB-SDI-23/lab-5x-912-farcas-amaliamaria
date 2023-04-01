@@ -1,8 +1,0 @@
-
-t
-java:S2293c"YReplace the type specification in this constructor call with the diamond operator ("<>").(Â¤¡Šýÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆ¢‘Ù
-L
-java:S1128"6Remove this unused import 'a1.DTO.getAll.AnimalIdDTO'.(—ãô“
-H
-java:S1128"-Remove this unused import 'a1.Domain.Animal'.(Ùœ¦Ùýÿÿÿÿ
