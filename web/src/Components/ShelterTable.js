@@ -39,9 +39,9 @@ export default function ShelterTable({ filterValue }) {
 
 
     React.useEffect(() => {
-        let link = "http://54.167.157.177/api/shelter";
+        let link = "http://localhost:80/api/shelter";
         if (filterValue !== "") {
-            link = `http://54.167.157.177/api/shelter/greaterCapacity?capacity=${filterValue}`;
+            link = `http://localhost:80/api/shelter/greaterCapacity?capacity=${filterValue}`;
         }
         fetch(link)
             .then(response => response.json())
