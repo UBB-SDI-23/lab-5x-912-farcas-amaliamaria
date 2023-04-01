@@ -25,7 +25,7 @@ public class ShelterController {
     }
 
     @GetMapping
-    public List<ShelterIdDTO> getAnimals(){
+    public List<ShelterIdDTO> getShelters(){
         return shelterService.getShelters();
     }
 

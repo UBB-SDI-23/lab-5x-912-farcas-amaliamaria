@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "name": "ClujAnimals",
+    "city": "Cluj",
+    "postalCode": 758964,
+    "phoneNumber": 40758968566,
+    "capacity": 450,
+    "animals": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "name": "OradeaAnimals",
+    "city": "Oradea",
+    "postalCode": 658458,
+    "phoneNumber": 40388968519,
+    "capacity": 300,
+    "animals": [
+      10
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ZalauAnimals",
+    "city": "Zalau",
+    "postalCode": 112244,
+    "phoneNumber": 40388968511,
+    "capacity": 50,
+    "animals": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": 4,
+    "name": "TimisoaraAnimals",
+    "city": "Timisoara",
+    "postalCode": 112233,
+    "phoneNumber": 40399968592,
+    "capacity": 370,
+    "animals": []
+  },
+  {
+    "id": 5,
+    "name": "BucurestiAnimals",
+    "city": "Bucuresti",
+    "postalCode": 658450,
+    "phoneNumber": 40388558593,
+    "capacity": 450,
+    "animals": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 6,
+    "name": "PitestiAnimals",
+    "city": "Pitesti",
+    "postalCode": 651458,
+    "phoneNumber": 40380968594,
+    "capacity": 200,
+    "animals": [
+      7
+    ]
+  },
+  {
+    "id": 7,
+    "name": "SatuMareAnimals",
+    "city": "SatuMare",
+    "postalCode": 658478,
+    "phoneNumber": 40388111575,
+    "capacity": 100,
+    "animals": [
+      8
+    ]
+  },
+  {
+    "id": 8,
+    "name": "SibiuAnimals",
+    "city": "Sibiu",
+    "postalCode": 158458,
+    "phoneNumber": 40388911199,
+    "capacity": 120,
+    "animals": []
+  },
+  {
+    "id": 9,
+    "name": "BrasovAnimals",
+    "city": "Brasov",
+    "postalCode": 602458,
+    "phoneNumber": 40388900199,
+    "capacity": 400,
+    "animals": [
+      5
+    ]
+  },
+  {
+    "id": 10,
+    "name": "IasiAnimals",
+    "city": "Iasi",
+    "postalCode": 651018,
+    "phoneNumber": 40388101799,
+    "capacity": 90,
+    "animals": []
+  }
+]
