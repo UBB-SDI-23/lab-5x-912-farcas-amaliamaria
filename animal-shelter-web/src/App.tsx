@@ -1,27 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, {useState} from "react";
+import "./App.css";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {AppMenu} from "./components/AppMenu";
+import {AppHome} from "./components/AppHome";
+import {SheltersShowAll} from "./components/shelters/AllShelters";
+import {ShelterDetails} from "./components/shelters/ShelterDetails";
+import {ShelterDelete} from "./components/shelters/ShelterDelete";
+import {ShelterUpdate} from "./components/shelters/ShelterUpdate";
+import {ShelterAdd} from "./components/shelters/ShelterAdd";
 
 function App() {
-  const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0);
 
-  return (
-    <div className="App">
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    return (
+
+        <React.Fragment>
+            <Router>
+                <AppMenu/>
+                <Routes>
+                    <Route path="/" element={<AppHome/>}/>
+                    <Route path="/shelter" element={<SheltersShowAll/>}/>
+                    <Route path="/shelter/:shelterId" element={<ShelterDetails/>}/>
+                    <Route path="/shelter/:shelterId/delete" element={<ShelterDelete/>}/>
+                    <Route path="/shelter/:shelterId/edit" element={<ShelterUpdate/>}/>
+                    <Route path="/shelter/add" element={<ShelterAdd/>}/>
+                </Routes>
+            </Router>
+        </React.Fragment>
+    );
 }
 
-export default App
+export default App;
