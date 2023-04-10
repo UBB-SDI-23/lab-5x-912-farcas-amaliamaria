@@ -10,7 +10,6 @@ import {
     Container,
     IconButton,
     Tooltip,
-    Button,
 } from "@mui/material";
 
 import EditIcon from "@mui/icons-material/Edit";
@@ -38,6 +37,7 @@ export const SheltersShowAll = () => {
     console.log(shelters);
 
     const sortShelters = () => {
+
         const sortedShelters = [...shelters].sort((a: Shelter, b: Shelter) => {
             if (a.capacity < b.capacity) {
                 return -1;
@@ -54,7 +54,7 @@ export const SheltersShowAll = () => {
     return (
 
         <Container>
-            <h1 style={{marginTop:"65px"}}>All Shelters</h1>
+            <h1 style={{marginTop:"65px", color:'black'}}>All Shelters</h1>
 
             {loading && <CircularProgress />}
 
@@ -66,12 +66,12 @@ export const SheltersShowAll = () => {
                     <Table sx={{ minWidth: 800 }} aria-label="simple table" style={{backgroundColor:"whitesmoke"}}>
                         <TableHead>
                             <TableRow>
-                                <TableCell align="center" style={{color:"#2471A3", fontWeight:'bold'}}>Crt.</TableCell>
-                                <TableCell align="center" style={{color:"#2471A3", fontWeight:'bold'}}>Name</TableCell>
-                                <TableCell align="center" style={{color:"#2471A3", fontWeight: 'bold'}}>City</TableCell>
-                                <TableCell align="center" style={{color:"#2471A3", fontWeight: 'bold'}}>Postal Code</TableCell>
-                                <TableCell align="center" style={{color:"#2471A3", fontWeight: 'bold'}}>Phone Number (+)</TableCell>
-                                <TableCell align="center" style={{color:"#2471A3", fontWeight: 'bold'}}>
+                                <TableCell align="center" style={{color:"black", fontWeight:'bold'}}>Crt.</TableCell>
+                                <TableCell align="center" style={{color:"black", fontWeight:'bold'}}>Name</TableCell>
+                                <TableCell align="center" style={{color:"black", fontWeight: 'bold'}}>City</TableCell>
+                                <TableCell align="center" style={{color:"black", fontWeight: 'bold'}}>Postal Code</TableCell>
+                                <TableCell align="center" style={{color:"black", fontWeight: 'bold'}}>Phone Number (+)</TableCell>
+                                <TableCell align="center" style={{color:"black", fontWeight: 'bold'}}>
                                     Capacity
                                     <IconButton sx={{color:"black", paddingLeft:2, fontSize:"20px", width:"20px", '&:focus': {
                                             outline: "none"
@@ -82,7 +82,7 @@ export const SheltersShowAll = () => {
                                     </IconButton>
 
                                 </TableCell>
-                                <TableCell align="center" style={{color:"#2471A3", fontWeight: 'bold'}}>Operations
+                                <TableCell align="center" style={{color:"black", fontWeight: 'bold'}}>Operations
                                     <IconButton component={Link} sx={{ mr: 3 }} to={`/shelter/add`}>
                                         <Tooltip title="Add a new shelter" arrow>
                                             <AddIcon style={{color:"black", fontSize:"20px"}} />

@@ -3,6 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
 import PetsIcon from '@mui/icons-material/Pets';
 
+function Diversity3Icon() {
+    return null;
+}
+
 export const AppMenu = () => {
     const location = useLocation();
     const path = location.pathname;
@@ -33,16 +37,15 @@ export const AppMenu = () => {
                         startIcon={<PetsIcon />}>
                         Shelters
                     </Button>
-
-{/*                    <Button
-                        variant={path.startsWith("/teams") ? "outlined" : "text"}
-                        to="/teams/teamsOrd"
+                    <Button
+                        variant={path.startsWith("/shelter") ? "outlined" : "text"}
+                        to="/shelter/report"
                         component={Link}
                         color="inherit"
                         sx={{ mr: 5 }}
                         startIcon={<Diversity3Icon />}>
-                        Shelters Ordered By Capacity
-                    </Button>*/}
+                        Animals Vaccination Report
+                    </Button>
 
                 </Toolbar>
             </AppBar>
